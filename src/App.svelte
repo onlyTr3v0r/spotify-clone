@@ -13,7 +13,6 @@
 <AlbumCover/>
 
 <style lang="scss">
-
   :root {
     font-family: Inter, sans-serif;
     height: 100%;

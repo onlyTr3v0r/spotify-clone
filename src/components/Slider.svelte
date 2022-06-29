@@ -63,7 +63,8 @@
   }
 
   #slider:hover,
-  #slider:active {
+  #slider:active,
+  #slider:focus {
     background-color: #1db954;
   }
 
