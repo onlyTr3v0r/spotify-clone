@@ -76,7 +76,6 @@
 
 <style lang="scss">
   #content {
-    // padding: 25px;
     display: flex;
     align-items: center;
   }
@@ -91,9 +90,21 @@
     background-color: transparent;
     border: 0;
 
+    transform-origin: 50% 50%;
+
     & > svg {
       width: 100%;
       height: 100%;
+      transform-origin: 50% 50%;
+
+      :hover {
+        transform: scale(1.02);
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      filter: brightness(130%);
     }
   }
 
